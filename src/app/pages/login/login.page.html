@@ -1,0 +1,40 @@
+<ion-content>
+
+    <ion-slides pager="true" class="slide-full">
+
+        <ion-slide>
+            <ion-card mode="ios">
+                <img src="assets/imgs/taxi-logo.png" class="slide-image">
+                <ion-card-header>
+                    <ion-card-title>Ingrese su código</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                    Debe de ingresar su código de usuario
+                </ion-card-content>
+                <ion-button expand="full" color="primary" (click)="mostrarInput()">
+                    Ingresar
+                </ion-button>
+
+            </ion-card>
+
+        </ion-slide>
+        <ion-slide>
+            <ion-card mode="ios">
+                <img src="assets/imgs/check.jpg" class="slide-image">
+                <ion-card-header>
+                    <ion-card-title>Listo para empezar</ion-card-title>
+                </ion-card-header>
+
+                <ion-button fill="clear" color="primary" (click)="ingresar()">
+                    Continuar
+                    <ion-icon name="arrow-forward"></ion-icon>
+                </ion-button>
+
+            </ion-card>
+
+        </ion-slide>
+
+
+    </ion-slides>
+
+</ion-content>
